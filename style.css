@@ -1,0 +1,88 @@
+
+@font-face  {
+    font-family: 'RushDriver';
+    src: url('files/RushDriver.otf');
+}
+@font-face  {
+    font-family: 'Sakana';
+    src: url('files/Sakana.ttf');
+}
+
+body {
+    text-align: center;
+    background-image: url("/files/bg2.webp");
+    background-size: cover;
+    color: #F8EDEB;
+    text-shadow: 0px 0px 2px black;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: Sakana;
+    letter-spacing: 1px;;
+}
+
+div {
+    display: block;
+    border-radius: 10px;
+    background: linear-gradient(90deg, hsla(332, 53%, 82%, 0.65) 0%, hsla(176, 57%, 89%, 0.65) 100%);
+    min-height: 400px;
+    max-width: 500px;
+    padding: 20px 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px black;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+button {
+    background: #C9184A;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 0.4px solid black;
+    font-weight: bold;
+    width: 200px;
+    font-size: 20px;
+    font-family: RushDriver;
+    letter-spacing: 1px;
+    color: #DEE2E6;
+    text-shadow: 0 0 2px black;
+    box-shadow: 0 0 3px black;
+}
+
+
+#increament-btn {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#savel {
+    display: block;
+    background: linear-gradient(90deg, hsla(5, 93%, 28%, 0.5) 0%, hsla(34, 10%, 13%, 0.5) 100%);
+    border-radius: 5px;
+    min-height: 50px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 0 0 4px black;
+}
+
+#countppl {
+    font-size: 40px;
+    color: #660708;
+    text-shadow: none;
+}
+
+#save-btn {
+    background: #2D6A4F;
+}
+
+#save-btn:active {
+    background: #1B4332;
+    color: #495057;
+}
+#increament-btn:active {
+    color: #495057;
+    background: #590D22;
+}
